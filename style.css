@@ -19,13 +19,13 @@ h3 {
   font-family: 'Graduate', cursive;
   color: #FFFFFF;
   font-size: 5rem;
-  margin-bottom: 0;
+  margin-bottom: 0.25em;
   text-align: center;
 }
 
 .score-container {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 325px;
   background-color: #000000;
   display: flex;
   justify-content: center;
@@ -35,5 +35,28 @@ h3 {
 p {
   font-family: Cursed Timer;
   color: #881337;
-  font-size: 15rem;
+  font-size: 12rem;
+  padding-top: 0.25em;
+}
+
+.btn {
+  background-color: #1A254A;
+  border: 2px solid #9AABD8;
+  color: #9AABD8;
+  font-size: 18px;
+  font-family: Cursed Timer;
+  padding: 0.75em;
+  border-radius: 5px;
+  margin: 0.25em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
